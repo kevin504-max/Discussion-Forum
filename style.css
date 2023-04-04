@@ -447,3 +447,30 @@ footer {
 .comment-area input:hover {
     border: solid 1px #000000;  
 }   
+
+/* Reply */
+.reply-area {
+    margin-top: 5px;
+}
+
+.reply-area textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-block: 10px;
+}
+
+.reply-area input {
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+.reply-area input:hover {
+    border: solid 1px #000000;  
+}   

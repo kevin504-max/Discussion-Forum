@@ -18,5 +18,9 @@ function showIconBar () {
 function showComment () {
     var commentArea = document.getElementById("comment-area");
     commentArea.classList.remove("hide");
-    // commentArea.setAttribute("style", "display: block;");
+    }
+
+function showReply () {
+    var replyArea = document.getElementById("reply-area");
+    replyArea.classList.remove("hide");
 }
